@@ -12,6 +12,7 @@ print('''
 /**     /**      /**     /**      /**    //***       //********       /**        /**      /**     /**      /**    //***
 //      //       //      //       //      ///         ////////        //         //       //      //       //      /// 
 ''')
+
 print('Welcome to HANGMAN game')
 name= input('Please Enter Your Name: ')
 print('Welcome ' + name + ' !')
