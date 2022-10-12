@@ -1,6 +1,5 @@
 import random
 import time
-from unicodedata import name
 
 
 hangman_stages = ['''
@@ -150,7 +149,7 @@ print('''
 ''')
 
 print('Welcome to HANGMAN game')
-name= input('Please Enter Your Name: ')
+name = input('Please Enter Your Name: ')
 print('Welcome ' + name + ' !')
 print('Try to save the man in 6 attempts!')
 time.sleep(1)
