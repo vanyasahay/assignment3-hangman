@@ -1,5 +1,6 @@
 import random
 import time
+import string
 hangman_stages = ['''
 It is just one, I know you can do this
   +---+
@@ -72,7 +73,7 @@ end_of_game = False
 lives = 6
 
 def playAgain():
-    answer =  input('\nTo play again press any key: ').lower()
+    answer =  input('\nTo play again press ENTER: ').lower()
     hangman()
 
 
