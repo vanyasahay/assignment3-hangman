@@ -117,29 +117,29 @@ def hangman():
         playAgain()
 
 print('''
-  #     # ####### #        #####  ####### #     # #######             
-       #  #  # #       #       #     # #     # ##   ## #                   
-       #  #  # #       #       #       #     # # # # # #                   
-       #  #  # #####   #       #       #     # #  #  # #####               
-       #  #  # #       #       #       #     # #     # #                   
-       #  #  # #       #       #     # #     # #     # #                   
-        ## ##  ####### #######  #####  ####### #     # #######             
-                                                                           
-                                                                           
-                         #####  ####                                       
-                           #   #    #                                      
-                           #   #    #                                      
-                           #   #    #                                      
-                           #   #    #                                      
-                           #    ####                                       
-                                                                           
- #     #       #       #     #     #####     #     #       #       #     # 
- #     #      # #      ##    #    #     #    ##   ##      # #      ##    # 
- #     #     #   #     # #   #    #          # # # #     #   #     # #   # 
- #######    #     #    #  #  #    #  ####    #  #  #    #     #    #  #  # 
- #     #    #######    #   # #    #     #    #     #    #######    #   # # 
- #     #    #     #    #    ##    #     #    #     #    #     #    #    ## 
- #     #    #     #    #     #     #####     #     #    #     #    #     #  
+  
+        W     W EEEE L     CCC  OOO  M   M EEEE                
+        W     W E    L    C    O   O MM MM E                   
+        W  W  W EEE  L    C    O   O M M M EEE                 
+         W W W  E    L    C    O   O M   M E                   
+          W W   EEEE LLLL  CCC  OOO  M   M EEEE                
+                                                               
+                                                               
+                 t                                             
+                 t                                             
+                ttt ooo                                        
+                 t  o o                                        
+                 tt ooo                                        
+                                                               
+                                                               
+H  H      AA      N   N      GGG      M   M      AA      N   N 
+H  H     A  A     NN  N     G         MM MM     A  A     NN  N 
+HHHH     AAAA     N N N     G  GG     M M M     AAAA     N N N 
+H  H     A  A     N  NN     G   G     M   M     A  A     N  NN 
+H  H     A  A     N   N      GGG      M   M     A  A     N   N 
+                                                               
+                                                               
+
 ''')
 name= input('Please Enter Your Name: ')
 print('Welcome ' + name + ' !')
