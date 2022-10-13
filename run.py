@@ -66,8 +66,9 @@ BYE BYE Good Friend, Take Care
 
 
 
-WORDS = ['abruptly','absurd','awkward','blizzard','bookworm','buffoon','croquet','daiquiri','galvanize','glowworm','microwave',
-    'lengths','keyhole','nightclub','syndrome','twelfth','vaporize','triphthong','zigzagging','whiskey','waltz']
+with open('words.txt') as file:
+    WORDS = file.readlines()
+    WORDS = [word.strip() for word in WORDS]
 
 end_of_game = False
 lives = 6
