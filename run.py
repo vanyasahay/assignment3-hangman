@@ -64,14 +64,16 @@ BYE BYE Good Friend, Take Care
 =========
 ''']
 
-
-
 with open('words.txt') as file:
     WORDS = file.readlines()
     WORDS = [word.strip() for word in WORDS]
 
 end_of_game = False
 lives = 6
+
+def playAgain():
+    answer =  input('\nTo play again press any key: ').lower()
+    hangman()
 
 
 
@@ -108,9 +110,11 @@ def hangman():
 
         if ''.join(blanks) == secretWordlowerCase:
             print(f'Yaaaayyy..You saved a lige with your guess: {secretWord}.')
+            playAgain()
             break
     else:
         print(f'You lost. The secret word is: {secretWord}.')
+        playAgain()
 
 print('''
   #     # ####### #        #####  ####### #     # #######             
