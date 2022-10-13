@@ -144,6 +144,19 @@ H  H     A  A     N   N      GGG      M   M     A  A     N   N
 ''')
 name= input('Please Enter Your Name: ')
 print('Welcome ' + name + ' !')
-print('Try to save the man in 6 attempts!')
+print(name + ', ' + 'These are the rules to play game\n\n')
+print('''- This is version of the classic letter guessing game called Hangman. 
+- You are shown a set of blank letters that match a word and you have to guess what these letters are to reveal the hidden word. 
+- You guess by picking letters from those displayed on the sides. 
+- If you pick a letter that is in the word, letter is revealed from the blank letters; however, if you pick a letter that is not in the word, then a stickman is slowly drawn. 
+- With each wrong letter guess, the man is drawn more and more. 
+- When the man is finished, he is hung and the game is lost. 
+- This is why the game is called 'Hangman'. 
+- If you can reveal all the letters in the word before the man is hung then you are successful and the full word is revealed.
+*Game will start in 5 seconds.*''')
+print('\n\n')
+time.sleep(5)
+print('Try to save the man in 7 attempts!')
+time.sleep(1)
 time.sleep(1)
 hangman()
